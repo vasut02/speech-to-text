@@ -10,6 +10,9 @@ A web application that allows users to record audio and transcribe it using the 
 - Save and display past transcriptions
 - Responsive design for different screen sizes
 
+## Live Demo
+Check out the live demo [here](https://speech-to-text-ruddy.vercel.app/).
+
 ## Screenshots
 ![New Transcription](https://github.com/vasut02/speech-to-text/assets/70652567/e61bda20-24eb-4353-9649-768a96b59be1)
 ![image](https://github.com/vasut02/speech-to-text/assets/70652567/8cdfcb2b-8020-404e-b7e3-a4276d3412dd)
