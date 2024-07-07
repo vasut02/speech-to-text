@@ -26,7 +26,7 @@ const TranscriptionsView: React.FC<TranscriptionsViewProps> = ({
           );
         })
       ) : (
-        <div className="flex w-full h-44 px-4 border-box justify-center items-center"><p className="text-xl md:text-2xl text-slate-400">Your Transcriptions will be shown here</p></div>
+        <div className="flex w-full h-80 sm:h-44  px-4 border-box justify-center items-center"><p className="text-xl md:text-2xl text-center text-slate-400">Your Transcriptions will be shown here</p></div>
       )}
     </div>
   );
