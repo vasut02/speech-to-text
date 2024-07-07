@@ -62,6 +62,7 @@ const useDeepgramTranscription = ({
             data.channel &&
             data.channel.alternatives[0].transcript !== ""
           ) {
+            // @ts-ignore
             setSelectedTranscription((prevSelected) => {
               if (!prevSelected || prevSelected.transcriptions.length === 0)
                 return prevSelected;
@@ -154,6 +155,7 @@ const useDeepgramTranscription = ({
       setSeconds(0);
 
       const newId: string = uuidv4();
+      // @ts-ignore
       setSelectedTranscription((prev) => {
         if (prev) {
           return {
