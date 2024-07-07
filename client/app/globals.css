@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ :root {
+  --foreground-rgb: 0, 0, 0;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: #212121;
+  margin: 0px;
+  padding: 0px;
+}
+
+.bg{
+  background: #212121;
+}
+
+.side-bar{
+  background: #171717;
+}
+
+.app-name{
+  color:#b4b4b4;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} 
