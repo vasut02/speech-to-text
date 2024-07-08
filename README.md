@@ -1,4 +1,4 @@
-# Audio Transcription Web UI
+# Speech to Text
 
 ## Description
 A web application that allows users to record audio and transcribe it using the Deepgram transcription service.
