@@ -1,12 +1,12 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import Microphone from "@/Components/Microphone";
-import Sidebar from "@/Components/Sidebar";
+import Microphone from "../Components/Microphone";
+import Sidebar from "../Components/Sidebar";
 import { v4 as uuidv4 } from "uuid";
 import Image from "next/image";
 import { TranscriptionGroup } from "@/Interfaces";
-import TranscriptionsView from "@/Components/TranscriptionView";
+import TranscriptionsView from "../Components/TranscriptionView";
 import clsx from "clsx";
 
 const Home: React.FC = () => {
