@@ -12,4 +12,7 @@ def read_root():
 
 if __name__ == '__main__':
     import uvicorn
-    uvicorn.run(app)
+    try:
+        uvicorn.run(app)
+    except:
+        print('Error starting the app')
